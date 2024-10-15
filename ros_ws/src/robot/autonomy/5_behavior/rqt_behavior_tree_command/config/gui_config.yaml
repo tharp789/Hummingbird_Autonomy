@@ -1,0 +1,14 @@
+groups:
+  - Commands:
+    - Takeoff:
+        condition_name: Auto Takeoff Commanded
+    - Land:
+        condition_name: Land Commanded
+    - Pause:
+        condition_name: Pause Commanded
+    - Rewind:
+        condition_name: Rewind Commanded
+    - Fixed Trajectory:
+        condition_name: Fixed Trajectory Commanded
+    - Disarm:
+        condition_name: Disarm Commanded

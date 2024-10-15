@@ -1,0 +1,12 @@
+<!-- GLOBAL -->
+<launch>
+    <!-- World Model -->
+    <node pkg="vdb_mapping_ros2" exec="vdb_mapping_ros_node" name="vdb_mapping"
+        output="screen">
+        <param from="$(find-pkg-share global_bringup)/config/vdb_params.yaml" />
+    </node>
+
+    <!-- Planning -->
+    <group>
+    </group>
+</launch>
